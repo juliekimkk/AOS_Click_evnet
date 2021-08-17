@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+body {
+    background-color: #000;
+    margin: 0;
+  }
+
+#container{
+    text-align: center;
+}
+  
+.center-center {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+.square {
+    width: 90px;
+    height: 90px;
+    background-color: #f397f3;
+    transition: transform 300ms ease-out;
+    margin: 0 auto;
+}  
+.expand {
+  transform: scale(2.5);
+}   
+
+h1{
+  color: #fff;
+}
